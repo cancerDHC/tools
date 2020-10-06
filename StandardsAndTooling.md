@@ -31,25 +31,25 @@ Ontology/Terminology |	Abbreviation	| Description
 ## Tooling
 Type | Resource Name	| Description
 -- | -- | --
-API | [Simple Terminology  Server]() | A simple RESTful API for validating data values against enumerated value domains.
-Data cleaning tool | [OpenRefine]()	| An open-source tool for cleaning up tabular data.
-Data harmonization tool | [Ptolemy.V]()	| A tool for harmonizing datasets to valuesets, designed for use with the caDSR. Currently in a closed pilot.
-Modeling language | [BiolinkML]()	| BiolinkML is a general purpose modeling language following object-oriented and ontological principles.
-Modeling language | [Bento Graph Model Description Framework (BentoMDF)]() | A YAML-based model description format for describing a property graph model.
-Modeling language | [BRIDG]() | The goal of the Biomedical Research Integrated Domain Group (BRIDG) Model is to produce a shared view of the dynamic and static semantics for the domain of basic, pre-clinical, clinical, and translational research and its associated regulatory artifacts.
-Repository | [Cancer Data Standards Registry and Repository (caDSR)]()	| A repository of Common Data Elements (CDEs), which are descriptions of fields used in cancer-related datasets.
-Repository | [NCI Thesaurus]()	| A repository of concepts relating to cancer managed by the National Cancer Institute.
-Repository | [NCI Metathesaurus]()	| A repository of concepts relating to cancer from over a hundred sources, including the NCI Thesaurus and SNOMED, managed by the National Cancer Institute.
-Repository | [BioPortal]()	| A Web-based application for searching, sharing, visualizing and analyzing a large repository of biomedical ontologies, terminologies, and ontology-based annotations.
-Repository | [Ontology Lookup Service (OLS)]() | The Ontology Lookup Service (OLS) is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions. You can browse the ontologies through the website as well as programmatically via the OLS API.
-Repository | [Ontobee]() | A linked data server designed for ontologies. Ontobee is aimed to facilitate ontology data sharing, visualization, query, integration, and analysis.
-Repository | [Unified Medical Language System (UMLS)]() | The UMLS integrates and distributes key terminology, classification and coding standards, and associated resources to promote creation of more effective and interoperable biomedical information systems and services, including electronic health records.
-Standard | [CTS2/LexEVS]()	| The Common Terminology Services 2 (CTS2) Standard is an API specification jointly developed by HL7 and the Object Management Group (OMG) for the distribution and federation of terminological resources, including code sets, classification systems, ontologies, value sets and mappings.
-Standard | [Fast Healthcare Interoperability Resources (FHIR)]()	| The FHIR Specification is a standard for exchanging healthcare information.
-Standard | [FHIR Terminology]()	| The FHIR Terminology module provides an overview and guide to the FHIR resources, operations, coded data types and externally-defined standard and FHIR-defined terminologies.
-Standard | [Shape Expressions (ShEx)]()	| A standard for describing and validating RDF shapes.
-Standard | [Shapes Constraint Language (SHACL)]()	| A standard for describing, documenting and validating RDF shapes.
-Standard | [Portable Format for Biomedical Data (PFB)]()	| An Apache Avro-based format for storing biomedical data side-by-side with schema and semantic metadata. Other documentation resources: [CBIIT Bento Meta DB Readme](https://github.com/CBIIT/bento-meta/tree/feat-pfb/python/bento_meta/pfb#portable-format-for-bioinformatics).
-Metadata Annotator | [CEDAR Template Builder]()	| A JSON-based format for describing metadata forms as well as a website for creating and filling in such forms.
-Metadata Annotator | [SciGraph Annotator]()	| A software tool for identifying terms from one or more ontologies in an input document.
+API | [Simple Terminology  Server](https://github.com/CBIIT/icdc-sts) | A simple RESTful API for validating data values against enumerated value domains.
+Data cleaning tool | [OpenRefine](https://openrefine.org/) | An open-source tool for cleaning up tabular data.
+Data harmonization tool | Ptolemy.V	| A tool for harmonizing datasets to valuesets, designed for use with the caDSR. Currently in a closed pilot.
+Modeling language | [BiolinkML](https://biolink.github.io/biolinkml/)	| BiolinkML is a general purpose modeling language following object-oriented and ontological principles.
+Modeling language | [Bento Graph Model Description Framework](https://github.com/CBIIT/bento-mdf/) (BentoMDF) | A YAML-based model description format for describing a property graph model.
+Modeling language | [BRIDG](https://bridgmodel.nci.nih.gov/) | The goal of the Biomedical Research Integrated Domain Group (BRIDG) Model is to produce a shared view of the dynamic and static semantics for the domain of basic, pre-clinical, clinical, and translational research and its associated regulatory artifacts.
+Repository | [Cancer Data Standards Registry and Repository](https://wiki.nci.nih.gov/display/caDSR/) (caDSR)	| A repository of Common Data Elements (CDEs), which are descriptions of fields used in cancer-related datasets.
+Repository | [NCI Thesaurus](http://ncit.nci.nih.gov/)	| A repository of concepts relating to cancer managed by the National Cancer Institute.
+Repository | [NCI Metathesaurus](https://ncim.nci.nih.gov/ncimbrowser/)	| A repository of concepts relating to cancer from over a hundred sources, including the NCI Thesaurus and SNOMED, managed by the National Cancer Institute.
+Repository | [BioPortal](http://bioportal.bioontology.org/)	| A Web-based application for searching, sharing, visualizing and analyzing a large repository of biomedical ontologies, terminologies, and ontology-based annotations.
+Repository | [Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols/index) | The Ontology Lookup Service (OLS) is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions. You can browse the ontologies through the website as well as programmatically via the OLS API.
+Repository | [Ontobee](http://www.ontobee.org/) | A linked data server designed for ontologies. Ontobee is aimed to facilitate ontology data sharing, visualization, query, integration, and analysis.
+Repository | [Unified Medical Language System](https://www.nlm.nih.gov/research/umls/index.html) (UMLS) | The UMLS integrates and distributes key terminology, classification and coding standards, and associated resources to promote creation of more effective and interoperable biomedical information systems and services, including electronic health records.
+Standard | [CTS2/LexEVS](https://wiki.nci.nih.gov/display/LexEVS/LexEVS)	| The Common Terminology Services 2 (CTS2) Standard is an API specification jointly developed by HL7 and the Object Management Group (OMG) for the distribution and federation of terminological resources, including code sets, classification systems, ontologies, value sets and mappings.
+Standard | [Fast Healthcare Interoperability Resources](http://hl7.org/fhir/) (FHIR) | The FHIR Specification is a standard for exchanging healthcare information.
+Standard | [FHIR Terminology](https://www.hl7.org/fhir/terminology-service.html)	| The FHIR Terminology module provides an overview and guide to the FHIR resources, operations, coded data types and externally-defined standard and FHIR-defined terminologies.
+Standard | [Shape Expressions](https://shex.io/) (ShEx) | A standard for describing and validating RDF shapes.
+Standard | [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)	| A standard for describing, documenting and validating RDF shapes.
+Standard | [Portable Format for Biomedical Data](https://github.com/uc-cdis/pypfb) (PFB)	| An Apache Avro-based format for storing biomedical data side-by-side with schema and semantic metadata. Other documentation resources: [CBIIT Bento Meta DB Readme](https://github.com/CBIIT/bento-meta/tree/feat-pfb/python/bento_meta/pfb#portable-format-for-bioinformatics).
+Metadata Annotator | [CEDAR Template Builder](https://metadatacenter.org/)	| A JSON-based format for describing metadata forms as well as a website for creating and filling in such forms.
+Metadata Annotator | [SciGraph Annotator](https://github.com/SciGraph/SciGraph)	| A software tool for identifying terms from one or more ontologies in an input document.
 
