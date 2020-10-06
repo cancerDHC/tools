@@ -3,9 +3,9 @@ The CCDH aims to provide relevant standards and tooling for the CRDC community. 
 ## Standards
 Ontology/Terminology |	Abbreviation	| Description
 -- | -- | --
-AJCC staging system	| AJCC | A classification system developed by the American Joint Committee on Cancer for describing the extent of disease progression in cancer patients
-Clinical Data Interchange Standards Consortium	| CDISC	| CDISC develops and advances data standards to transform incompatible formats, inconsistent methodologies, and diverse perspectives into a powerful framework for generating clinical research data that is as accessible as it is illuminating.
-Cancer Data Standards Registry and Repository	|CaDSR | The caDSR and its associated applications help the research community manage and use data standards by providing the shared standards in a variety of human and machine readable contexts.
+[AJCC staging system](https://www.cancerstaging.org/)	| AJCC | A classification system developed by the American Joint Committee on Cancer for describing the extent of disease progression in cancer patients
+[Clinical Data Interchange Standards Consortium](https://www.cdisc.org/)	| CDISC	| CDISC develops and advances data standards to transform incompatible formats, inconsistent methodologies, and diverse perspectives into a powerful framework for generating clinical research data that is as accessible as it is illuminating.
+[Cancer Data Standards Registry and Repository](https://datascience.cancer.gov/resources/metadata)	|CaDSR | The caDSR and its associated applications help the research community manage and use data standards by providing the shared standards in a variety of human and machine readable contexts.
 Common Terminology Criteria for Adverse Events | CTCAE	| CTCAE is widely accepted throughout the oncology community as the standard classification and severity grading scale for adverse events in cancer therapy clinical trials and other oncology settings.
 Digital Imaging and Communications in Medicine | DICOM	| DICOM® is the international standard for medical images and related information. It defines the formats for medical images that can be exchanged with the data and quality necessary for clinical use.
 eagle-i Resource Ontology	| ERO | ERO models research resources such instruments. protocols, reagents, animal models and biospecimens. It was developed in the context of the eagle-i project.
